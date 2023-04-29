@@ -1,0 +1,75 @@
+26th March 2023
+Web Development
+HTML, CSS, JavaScript, BootStrap, PHP, SQL, Git
+
+Requirements for Students
+Laptop or Desktop - recommended
+External Keyboard
+Notebook - for taking notes
+live server
+
+HTML
+Basic structure of web page
+Tags
+Images anchor tag
+
+Task 26march
+-- Create a html web page similar to Newspaper
+
+1st April - 2023
+Create a html web page similar to Newspaper
+
+2nd April 2023
+List, Table and Forms
+Task
+Create a html web page similar to Newspaper and include list & table topics as well in this task
+
+9th April 2023
+Forms
+Create a html web page similar to Newspaper and include list & table topics as well in this task
+
+15th April 2023
+Block and Inline Level Elements
+IDs and Classes
+
+you are provided with a ROLL NO. 3
+3 , 6, 9 - Their names is ABC 
+
+16th April 2023
+Start CSS - 
+
+h1 - should be red in colour
+.
+
+h1 - should be blue in colour
+
+Types of CSS
+    Inline CSS
+    Internal CSS
+    External CSS
+
+22nd April 2023
+Selectors
+Fonts
+Colors
+Borders
+Box Model
+Creating a navigation bar
+
+23rd April 2023
+A gym Project
+
+29th April 2023
+Display - 
+Block Level - div,heading tags (h1,h2,,,,,h6),p,footer,section,header
+Inline Elements - span, a, img 
+Position 
+types of Position
+    static
+    relative
+    fixed
+
+30th April 2023
+    absolute
+    sticky
+

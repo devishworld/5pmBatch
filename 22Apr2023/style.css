@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+/* h1{
+    font-family: 'Caveat', cursive;
+    color: red;
+    font-size: 75px;
+    border: 10px solid yellow;
+    margin-bottom: 35px;
+
+} */
+h3{
+    font-family:sans-serif;
+    /* font-size: 30px; */
+    color: aqua;
+    border: 10px ridge greenyellow;
+    margin: 50px 15px 25px 10px;
+    padding: 40px 10px 25px 95px;
+}
+
+.d1 h3{
+    color: red;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
