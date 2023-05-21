@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch</title>
+</head>
+<body>
+    <h1>Switch Statements</h1>
+    <p>Switch statements are used to perform conditional testing.</p>
+    <h3 id="output"></h3>
+    <hr>
+    <h2 id="result"></h2>
+
+    <script>
+        let i = 41;
+        switch(i)
+        {
+            case 1:
+                document.getElementById("output").innerHTML = "It's One";
+                break;
+            case 2:
+                document.getElementById("output").innerHTML = "It's Two";
+                break;
+            case 3:
+                document.getElementById("output").innerHTML = "It's Three";
+                break;
+            case 44:
+                document.getElementById("output").innerHTML = "It's Fourty Four";
+                break;
+            default:
+                document.getElementById("output").innerHTML = "It's Something Else";
+        }
+
+        let marks = "A+";
+        switch(marks)
+        {
+            case "A+":
+                document.getElementById("result").innerHTML = "You got an A Plus Grade";
+                break;
+            case "Pass":
+                document.getElementById("result").innerHTML = "You got a Pass Grade";
+                break;
+            default:
+                document.getElementById("result").innerHTML = "Work Hard";
+        }
+
+    </script>
+</body>
+</html>

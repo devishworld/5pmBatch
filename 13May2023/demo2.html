@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If..Else..</title>
+</head>
+<body>
+    
+    <h1>Let's go to college..</h1>
+
+    <h3 id="result"></h3>
+
+    <h1 id="vote"></h1>
+
+    <script>
+        let opt1 = "Go by  Bike";
+        let opt2 = "Go by Bus";
+        let yourOpt = opt2;
+
+        if (yourOpt==opt1){
+            document.getElementById("result").innerHTML = opt1;
+        }else if(yourOpt!=opt1){
+            document.getElementById("result").innerHTML = opt2;
+        }else{
+            document.getElementById("result").innerHTML = "Enjoy today at Home";
+        }
+
+        let age = 17;
+        if (age >= 18){
+            document.getElementById("vote").innerHTML = "You are eligible to vote";
+        }else if(age==17){
+            document.getElementById("vote").innerHTML = "Please wait for another 1 year.";
+        }else{
+            document.getElementById("vote").innerHTML = "You are not eligible to vote";
+        }
+
+
+    </script>
+</body>
+</html>

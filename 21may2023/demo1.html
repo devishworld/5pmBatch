@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+        div{
+            background-color: aqua;
+            width: 150px;
+            height: 120px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Events</h1>
+    <p onclick="this.innerHTML = 'You clicked this Para...'">Click me to see the Event happening</p>
+    <h2>What is Current Date and Time ?</h2>
+    <button onclick="showdt()">Click me to Get It</button>
+    <p id="dt"></p>
+    <h3>Enter Course name : </h3>
+    <input type="text" id="course" onchange="capital()">
+    <div id="mydiv" onmouseover="mouseOver()" onmouseout="mouseOut()"></div>
+    <script>
+        function showdt(){
+            document.getElementById("dt").innerHTML= Date();
+        }
+        function capital(){
+            var x = document.getElementById("course");
+            x.value = x.value.toUpperCase();
+        }
+        function mouseOver(){
+            document.getElementById("mydiv").style.background = "red";
+        }
+        function mouseOut(){
+            document.getElementById("mydiv").style.background = "black";
+        }
+    
+    </script>
+</body>
+</html>

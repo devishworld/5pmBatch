@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Calculator</h1>
+    <hr>
+    <input type="number" name="" id="fnum" step="any">
+    <select name="" id="ope">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">x</option>
+        <option value="/">/</option>
+    </select>
+    <input type="number" name="" id="snum" step="any">
+    <hr>
+    <button onclick="calc()">Calculate</button><hr>
+    <label for="">Result : </label>
+    <input type="text" name="" id="result" readonly>
+
+    <script>
+        function calc(){
+            var opr1 = document.getElementById("fnum").value;
+            var opt = document.getElementById("ope").value;
+            var opr2 = document.getElementById("snum").value;
+            // alert(opr1);
+            // alert(opr2);
+            // alert(opt);
+            if (opt == "+"){
+                var res = parseFloat(opr1) + parseFloat(opr2);
+            }
+            if (opt == "-"){
+                var res = parseFloat(opr1) - parseFloat(opr2);
+            }
+            if (opt == "*"){
+                var res = parseFloat(opr1) * parseFloat(opr2);
+            }
+            if (opt == "/"){
+                var res = parseFloat(opr1) / parseFloat(opr2);
+            }
+            document.getElementById("result").value = res;
+        }
+    </script>
+</body>
+</html>

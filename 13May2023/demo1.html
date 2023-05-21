@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings and Functions</title>
+</head>
+<body>
+    
+    <h1 id="myhead"></h1>
+    <p id="count"></p>
+
+    <h2 id="mydata"></h2>
+
+    <p id="mydata2"></p>
+
+    <script>
+        let str1 = "We are learning JavaScript                                      ";
+        document.getElementById("myhead").innerHTML = str1;
+        document.getElementById("count").innerHTML = str1.length;
+
+        let msg1 = "He said,\"Today we are going to see Strings in JavaScript\".";
+        // let msg = "He said,'Today we are going to see Strings in JavaScript'.";
+        let msg = 'It\'s important';
+        document.getElementById("mydata").innerHTML = msg;
+
+        document.getElementById("mydata2").innerHTML = "Today is Saturday.";
+
+        document.getElementById("myhead").style.color = "red";
+    </script>
+</body>
+</html>

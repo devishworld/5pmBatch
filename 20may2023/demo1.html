@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <h1>Array Lectures</h1>
+
+    <p id="mydata"></p>
+    <p id="data"></p>
+    <p id="new"></p>
+
+    <script>
+        var mysub = ["maths","history","geography"];
+        var sub = [];
+        sub[0]="English";
+        sub[1]="Computer";
+        sub[2] = prompt("Enter the subject name");
+        document.getElementById("mydata").innerHTML=mysub;
+        document.getElementById("data").innerHTML=sub;
+        
+        var students = new Array();
+        students[0] = "Amit";
+        students[1] = "Sagar";
+        students[2] = "Sagar";
+        students[3] = "Rohit";
+        document.getElementById("new").innerHTML=students[3];
+
+
+    </script>
+</body>
+</html>

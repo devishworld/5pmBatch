@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is my heading</h1>
+    <p id="p1">Today is Sunday.</p>
+
+    <h2 id="myh2"></h2>
+
+    <script>
+        // var mydata = "Yes, today is Sunday 30th April 2023.";
+        // var message = prompt("What you want to display in the paragraph whose ID is 'p1' ? ")
+        // document.getElementById("p1").innerHTML = mydata;
+
+        var myp1data = document.getElementById("p1").innerHTML;
+        // alert("We are not getting that data.......");
+        document.getElementById("myh2").innerHTML = myp1data;
+    </script>
+</body>
+</html>

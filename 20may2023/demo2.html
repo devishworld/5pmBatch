@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+    <style>
+        #mydata{
+            color: aqua;
+            font-family: Calibri;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>For Loop</h1>
+    <p id="mydata"></p>
+
+    <h1>While Loop</h1>
+    <p id="wloop"></p>
+
+    <script>
+        // for LOOP 
+        var students = ["Anjali","Bhavesh","Chandan","Devesh","Emma","Fatima","George","Harish","Imran"];
+        for (let s = 0; s < students.length; s++){
+            document.getElementById("mydata").innerHTML += students[s] + "<br>";
+        }
+
+        // While LOOP 
+        let i = 1;
+        while (i <= 20){
+            document.getElementById("wloop").innerHTML += i + "<br>";
+            i++;
+        }
+
+    </script>
+</body>
+</html>

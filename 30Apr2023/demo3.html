@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        #flex-container{
+            border: 2px solid red;
+            height: 150px;
+            display: flex;
+        }
+        #flex-auto{
+            border: 2px solid green;
+        }
+        #flex-initial{
+            border: 1px solid blue;
+            margin-top: 50px;
+        }
+        .nav{
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="index.html">First Page</a>
+        <a href="demo2.html">Second Page</a>
+        <a href="demo3.html">Third Page</a>
+    </div>
+    <div id="flex-container">
+        <div id="flex-auto">flex: auto (click to toggle raw box)</div>
+        <div id="flex-initial">flex: initial</div>
+    </div>
+</body>
+</html>

@@ -73,3 +73,27 @@ types of Position
     absolute
     sticky
 
+13th May 2023
+
+Strings / String Functions
+if else.
+Functions
+
+14th May 2023
+Project - Create a School/College Result page for a student
+(You have to take the marks input from the teachers and when they provide all the inputs then you have to display the final result)
+Sub = 27th May 2023
+
+20th May 2023
+Array
+Loop
+
+Task
+1. You have to use loops and print a multiplication table ( get user input about the table which he wants )
+2. create an Array with user inputs.
+
+21st May 2023
+DOM
+Events and Listening to Events
+Date
+SetInterval and SetTimeout

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute Position</title>
+    <style>
+        .relative{
+            position: relative;
+            border: 5px solid red;
+            width:300px;
+            height: 400px;
+            left:200px;
+        }
+        .absolute{
+            position:absolute;
+            border: 3px dotted blue;
+            width:200px;
+            height:150px;
+            top:100px;
+            left:0;
+        }
+        .nav{
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="index.html">First Page</a>
+        <a href="demo2.html">Second Page</a>
+        <a href="demo3.html">Third Page</a>
+    </div>
+    <h2>Absolute Position</h2>
+
+    <div class="relative">
+        <div class="absolute">This div is absolute positioned</div>
+    </div>
+
+</body>
+</html>

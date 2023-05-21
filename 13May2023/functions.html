@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    
+    <h1>Welcome Page</h1>
+
+    <input type="text" id="name" placeholder="Enter your name">
+    <button onclick="greet()">Greet</button>
+    <h3 id="msg"></h3>
+
+    <h2>Name : <i id="username"></i></h2>
+    <br>
+    <button onclick="getName()">Get Name</button>
+
+    <script>
+        // Function Declaration
+        function greet(){
+            let name = document.getElementById("name").value;
+            let mymsg = "Good Evening " + name;
+            document.getElementById("msg").innerHTML = mymsg;
+        }
+
+        function getName(){
+            let username = prompt("What is your Name ?");
+            document.getElementById("username").innerHTML = username;
+        }
+
+    </script>
+
+</body>
+</html>

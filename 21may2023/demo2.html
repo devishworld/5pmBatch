@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listner</title>
+</head>
+<body>
+    <button id="dt">I Will Show Date and Time</button>
+    <p id="data"></p>
+
+    <script>
+        // document.getElementById("dt").addEventListener("click",showdt);
+        // function showdt(){
+        //     document.getElementById("data").innerHTML = Date();
+        // }
+        document.getElementById("dt").addEventListener("click",function showdt(){
+            document.getElementById("data").innerHTML = Date();
+        });
+        
+
+    </script>
+</body>
+</html>
